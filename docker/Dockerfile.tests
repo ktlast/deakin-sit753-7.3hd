@@ -1,0 +1,5 @@
+ARG APP_IMAGE
+FROM ${APP_IMAGE}
+USER root
+RUN pip install --no-cache-dir pytest==8.4.1 pytest-cov==6.2.1 httpx==0.27.2
+ENTRYPOINT ["python", "-m", "pytest"]

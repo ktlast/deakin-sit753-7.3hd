@@ -1,0 +1,14 @@
+{
+  "member_ids": ["alice", "bob"],
+  "items": [{
+    "item_id": "dinner",
+    "item_name": "Shared dinner",
+    "ts": 1742108367,
+    "amount": 120,
+    "creditors": [{"user_id": "alice", "weights": 120}],
+    "debtors": [{"user_id": "alice", "weights": 1}, {"user_id": "bob", "weights": 1}],
+    "curr": "AUD",
+    "ex_rate": 1,
+    "desc": "Shared dinner"
+  }]
+}

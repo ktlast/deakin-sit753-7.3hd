@@ -1,0 +1,118 @@
+{
+  "CVE-2026-76642": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "The API does not run mount helpers or X-mount hooks. It runs as UID 10001, with all capabilities dropped and no-new-privileges. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2026-76642",
+    "packages": {
+      "bsdutils": "1:2.41.5-0+deb13u1",
+      "libblkid1": "2.41.5-0+deb13u1",
+      "liblastlog2-2": "2.41.5-0+deb13u1",
+      "libmount1": "2.41.5-0+deb13u1",
+      "libsmartcols1": "2.41.5-0+deb13u1",
+      "libuuid1": "2.41.5-0+deb13u1",
+      "login": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "mount": "2.41.5-0+deb13u1",
+      "util-linux": "2.41.5-0+deb13u1"
+    }
+  },
+  "CVE-2026-78408": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "The API does not run nsenter or cgroup migration commands. No host cgroup or Docker socket is mounted in application containers. UID 10001, no capabilities, no-new-privileges. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2026-78408",
+    "packages": {
+      "bsdutils": "1:2.41.5-0+deb13u1",
+      "libblkid1": "2.41.5-0+deb13u1",
+      "liblastlog2-2": "2.41.5-0+deb13u1",
+      "libmount1": "2.41.5-0+deb13u1",
+      "libsmartcols1": "2.41.5-0+deb13u1",
+      "libuuid1": "2.41.5-0+deb13u1",
+      "login": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "mount": "2.41.5-0+deb13u1",
+      "util-linux": "2.41.5-0+deb13u1"
+    }
+  },
+  "CVE-2026-78409": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "The API does not run mount or resolve X-mount.subdir trees. No host filesystem is mounted. UID 10001, no capabilities, no-new-privileges. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2026-78409",
+    "packages": {
+      "bsdutils": "1:2.41.5-0+deb13u1",
+      "libblkid1": "2.41.5-0+deb13u1",
+      "liblastlog2-2": "2.41.5-0+deb13u1",
+      "libmount1": "2.41.5-0+deb13u1",
+      "libsmartcols1": "2.41.5-0+deb13u1",
+      "libuuid1": "2.41.5-0+deb13u1",
+      "login": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "mount": "2.41.5-0+deb13u1",
+      "util-linux": "2.41.5-0+deb13u1"
+    }
+  },
+  "CVE-2026-78410": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "The API does not run bind-mount or X-mount.owner/group/mode commands. No host filesystem is mounted. UID 10001, no capabilities, no-new-privileges. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2026-78410",
+    "packages": {
+      "bsdutils": "1:2.41.5-0+deb13u1",
+      "libblkid1": "2.41.5-0+deb13u1",
+      "liblastlog2-2": "2.41.5-0+deb13u1",
+      "libmount1": "2.41.5-0+deb13u1",
+      "libsmartcols1": "2.41.5-0+deb13u1",
+      "libuuid1": "2.41.5-0+deb13u1",
+      "login": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "mount": "2.41.5-0+deb13u1",
+      "util-linux": "2.41.5-0+deb13u1"
+    }
+  },
+  "CVE-2026-54369": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "The API does not perform ACL changes on attacker-controlled filesystem paths. No host filesystem is mounted. UID 10001, no capabilities, no-new-privileges. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2026-54369",
+    "packages": {
+      "libacl1": "2.3.2-2+b1"
+    }
+  },
+  "CVE-2025-69720": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "This affects the infocmp command-line tool. The HTTP API does not run infocmp or process uploaded terminfo input. It has no shell access feature. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2025-69720",
+    "packages": {
+      "libncursesw6": "6.5+20250216-2",
+      "libtinfo6": "6.5+20250216-2",
+      "ncurses-base": "6.5+20250216-2",
+      "ncurses-bin": "6.5+20250216-2"
+    }
+  },
+  "CVE-2026-16742": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "The API container does not run systemd-homed or manage logged-in system users. The report applies to libraries from the systemd source package. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2026-16742",
+    "packages": {
+      "libsystemd0": "257.13-1~deb13u1",
+      "libudev1": "257.13-1~deb13u1"
+    }
+  },
+  "CVE-2026-9538": {
+    "severity": "HIGH",
+    "scope": "local-runtime-only",
+    "expires": "2026-11-02",
+    "reason": "The API does not use Perl Archive::Tar or expose Perl archive extraction. The vulnerability is retained in the full report. Debian trixie has no fixed package listed in this scan. This is a temporary risk acceptance, not a fix.",
+    "reference": "https://security-tracker.debian.org/tracker/CVE-2026-9538",
+    "packages": {
+      "perl-base": "5.40.1-6+deb13u1"
+    }
+  }
+}
